@@ -1,0 +1,9 @@
+#!/usr/bin/env fish
+# Testing.
+
+echo "Valid name."
+poetry run python3 src/greeter Łukasz
+echo "No arguments."
+poetry run python3 src/greeter
+echo "Name consisting of first and last name."
+poetry run python3 src/greeter Łukasz Wieczorek

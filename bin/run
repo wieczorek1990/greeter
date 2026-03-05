@@ -1,0 +1,4 @@
+#!/usr/bin/env fish
+# Runner.
+
+poetry run python3 src/greeter $argv
